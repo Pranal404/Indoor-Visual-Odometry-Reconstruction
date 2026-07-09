@@ -1,0 +1,3 @@
+id,posecount,rawpathlengthm,localtranslationrmsem,localrotationrmsedeg,referencemetricsenabled
+seq05,309,4.882086439379679,0.025090394771814923,0.7142223296506973,False
+seq06,242,9.397824973816519,0.047145249786695716,1.181468577753599,False

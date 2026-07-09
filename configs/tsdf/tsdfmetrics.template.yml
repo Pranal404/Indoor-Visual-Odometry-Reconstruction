@@ -1,0 +1,5 @@
+output-dir: outputs/metrics/tsdf/sequence01
+
+paths:
+  tsdf-file: outputs/sequence01/tsdf/classicaltsdf.ply
+

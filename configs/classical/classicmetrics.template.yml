@@ -1,0 +1,12 @@
+output-root: outputs/metrics/classical
+
+classicmetrics:
+  enable-reference-metrics: false
+  rpe-intervals: [1, 5, 10, 20]
+
+sequences:
+  - id: sequence01
+    pose-dump: outputs/sequence01/classical/posesdump.npz
+    metrics-dir: outputs/metrics/classical/sequence01
+    reference-transforms-json: ""
+

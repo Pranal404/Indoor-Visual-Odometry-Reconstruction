@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+.conda/
+
+# User data and generated outputs
+data/
+datasets/
+outputs/
+results/
+runs/
+logs/
+
+# Heavy reconstruction artefacts
+*.npz
+*.npy
+*.ply
+*.obj
+*.mp4
+*.mov
+*.webm
+*.avi
+
+# Model/checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+weights/
+models/
+checkpoints/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep lightweight examples and figures
+!outputs_sample/
+!figures/
+

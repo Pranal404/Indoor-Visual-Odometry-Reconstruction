@@ -1,0 +1,23 @@
+input:
+  pose_dump: outputs/sequence01/classical/posesdump.npz
+  color_dir: data/sequence01/rgb
+  depth_dir: data/sequence01/depth
+  resize_to_pose_size: true
+
+output:
+  mesh_path: outputs/sequence01/tsdf/classicaltsdf.ply
+
+fusion:
+  min_depth: 0.3
+  max_depth: 4.0
+  min_valid_ratio: 0.01
+  filter_depth_range: true
+  skip_low_valid_ratio: true
+  pose_scale: 1.0
+  depth_scale: 1.0
+
+tsdf:
+  voxel_length: 0.015
+  sdf_trunc: 0.05
+  min_triangles: 100
+

@@ -1,0 +1,20 @@
+{
+  "sequences": [
+    {
+      "id": "seq05",
+      "posecount": 309,
+      "rawpathlengthm": 4.882086439379679,
+      "localtranslationrmsem": 0.025090394771814923,
+      "localrotationrmsedeg": 0.7142223296506973,
+      "referencemetricsenabled": false
+    },
+    {
+      "id": "seq06",
+      "posecount": 242,
+      "rawpathlengthm": 9.397824973816519,
+      "localtranslationrmsem": 0.047145249786695716,
+      "localrotationrmsedeg": 1.181468577753599,
+      "referencemetricsenabled": false
+    }
+  ]
+}

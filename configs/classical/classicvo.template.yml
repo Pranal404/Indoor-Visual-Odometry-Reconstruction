@@ -1,0 +1,26 @@
+classic-script: src/classical/VO-04-4F-V2.py
+
+camera:
+  fx: 580.0
+  fy: 580.0
+  cx: 320.0
+  cy: 240.0
+
+depth:
+  scale: 1000.0
+
+classic:
+  laplacian-threshold: 80.0
+  goodfeature-max-corners: 3500
+  goodfeature-quality: 0.015
+  lk-magnitude-threshold: 150.0
+  lk-error-threshold: 20.0
+  optimisation-iters: 30
+  max-frames: 0
+
+sequences:
+  - id: sequence01
+    rgb-dir: data/sequence01/rgb
+    depth-dir: data/sequence01/depth
+    output-dir: outputs/sequence01/classical
+
