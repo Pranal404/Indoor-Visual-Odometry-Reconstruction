@@ -111,26 +111,21 @@ python src/metrics/tsdfmetrics.py configs/tsdf/tsdfmetrics.template.yml
 The repository includes a few lightweight outputs so the project can be
 reviewed without downloading the original camera recordings:
 
-- `figures/classical/classicseq05stability.png`
-- `figures/classical/classicseq06stability.png`
-- `figures/tsdf/tsdfmetriccomparison.png`
+- `figures/classical/seq06classicalvopose.png`
+- `figures/tsdf/seq06classicaltsdfpointcloud.png`
 - `outputs_sample/classical_summarytable.csv`
 - `outputs_sample/classical_summary.json`
 
 ## Visual Evidence
 
-The figures below show the link between the estimated visual odometry pose and
-the reconstruction stage. The pose plot shows the estimated camera trajectory
-and local motion stability. The TSDF figure shows the reconstruction behaviour
-after RGB-D frames are fused using the estimated poses.
+The figures below show one complete classical RGB-D route on Sequence 06. The
+left image is the estimated visual odometry pose line. The right image is the
+matching TSDF point-cloud render created by fusing the same RGB-D frames with
+those estimated poses.
 
-| Classical visual odometry pose evidence | TSDF reconstruction evidence |
+| Classical RGB-D VO pose line | TSDF 3D reconstruction from the same poses |
 | --- | --- |
-| ![Sequence 05 classical VO trajectory and local motion stability](figures/classical/classicseq05stability.png) | ![TSDF reconstruction comparison](figures/tsdf/tsdfmetriccomparison.png) |
-
-Additional classical VO trajectory evidence:
-
-![Sequence 06 classical VO trajectory and local motion stability](figures/classical/classicseq06stability.png)
+| ![Sequence 06 classical RGB-D VO pose line](figures/classical/seq06classicalvopose.png) | ![Sequence 06 TSDF 3D reconstruction from classical VO poses](figures/tsdf/seq06classicaltsdfpointcloud.png) |
 
 ## What Is Not Included
 
