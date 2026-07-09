@@ -1,17 +1,17 @@
 # Classical RGB-D Visual Odometry and TSDF Reconstruction
 
 This repository contains the classical part of my indoor visual odometry and
-3D reconstruction work. It focuses on a transparent RGB-D pipeline:
+3D reconstruction work. It focuses on a transparent RGB-D Pipeline:
 
-1. read a recorded RGB-D sequence;
-2. estimate camera motion with classical feature tracking and PnP;
-3. export camera poses;
-4. evaluate trajectory stability without assuming ground truth;
-5. fuse RGB-D frames into a TSDF mesh with Open3D.
+1. Read a recorded RGB-D sequence;
+2. Estimate camera motion with classical feature tracking and PnP;
+3. Export camera poses;
+4. Evaluate trajectory stability without assuming ground truth;
+5. Fuse RGB-D frames into a TSDF mesh with Open3D.
 
 The repository is intentionally limited to the classical implementation. Raw
 camera recordings, trained models, large mesh outputs and private experiment
-folders are not included.
+Folders are not included.
 
 ## Pipeline
 
